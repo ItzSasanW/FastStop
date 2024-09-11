@@ -15,8 +15,8 @@ The **FastStop** plugin is designed for PocketMine-MP servers to apply various e
 
 ## Installation
 
-1. Download the plugin JAR file.
-2. Place the JAR file in the `plugins` directory of your PocketMine-MP server.
+1. Download the plugin zip file.
+2. Unzip the file and put it in the `plugins` directory of your PocketMine-MP server.
 3. Restart the server to load the plugin.
 
 ## Configuration
@@ -56,8 +56,13 @@ message:
 
 # Prohibited Actions:
 # - Specify the actions that players are not allowed to perform while the server is in update mode.
-# - Valid actions include "move" (movement), "interact" (interacting with blocks), "place_block" (placing blocks),
-#   "break_block" (breaking blocks), "damage" (taking damage), and "damage_by_entity" (damage caused by entities).
+# - Valid actions include:
+#   - **"move"** (movement) 🌟
+#   - **"interact"** (interacting with blocks) 🛠️
+#   - **"place_block"** (placing blocks) 🚧
+#   - **"break_block"** (breaking blocks) 💥
+#   - **"damage"** (taking damage) ⚠️
+#   - **"damage_by_entity"** (damage caused by entities) 🏹
 prohibited_actions:
   - "move"
   - "interact"
