@@ -1,0 +1,18 @@
+name: FastStop
+main: ItzSasan\FastStop\Main
+version: 1.0.0
+api: [5.0.0]
+author: ItzSasan
+description: A plugin to freeze all players during server updates with exceptions for specific players.
+
+commands:
+  faststop:
+    description: Controls the FastStop feature to freeze or unfreeze players.
+    aliases: [fs]
+    usage: "/faststop <on|off|add|remove>"
+    permission: faststop.command
+
+permissions:
+  faststop.command:
+    description: Allows player to use the /faststop (or /fs) command.
+    default: op
