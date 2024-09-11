@@ -19,12 +19,14 @@ The **FastStop** plugin is designed for PocketMine-MP servers to apply various e
 2. Unzip the file and put it in the `plugins` directory of your PocketMine-MP server.
 3. Restart the server to load the plugin.
 4. 
-## Commands
+## Commands 
 
-    /faststop enable: Enables FastStop mode, applying effects to all players and restricting actions.
-    /faststop disable: Disables FastStop mode, removing effects from all players and lifting restrictions.
-
-##Permissions
+1. /faststop on: Enables FastStop mode, applying effects to all players and restricting actions.
+2. /faststop off: Disables FastStop mode, removing effects from all players and lifting restrictions.
+3. /faststop add PlayerName: removing effects from the player and lifting restrictions for him/her.
+4. /faststop remove PlayerName: applying effects to the player and restricting actions for him/her.
+   You can use the /fs command as aliase
+## Permissions
 
     faststop.command: Allows usage of the /faststop command.
     
