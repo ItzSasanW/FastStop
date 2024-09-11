@@ -62,7 +62,7 @@ class Main extends PluginBase implements Listener {
             "CONDUIT_POWER" => VanillaEffects::CONDUIT_POWER(),
             "DOLPHINS_GRACE" => VanillaEffects::DOLPHINS_GRACE(),
             "HERO_OF_THE_VILLAGE" => VanillaEffects::HERO_OF_THE_VILLAGE(),
-            // Add more effects if needed
+          
         ];
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -78,7 +78,7 @@ class Main extends PluginBase implements Listener {
 # ------------------------------
 # Welcome to the FastStop plugin configuration!
 # For more information or to request help, please visit the GitHub repository:
-# https://github.com/ItzSasan/FastStop
+# https://github.com/ItzSasanW/FastStop
 #
 # This configuration file allows you to customize the effects applied to players, the messages displayed,
 # and the actions that are prohibited when the server is in update mode.
@@ -104,8 +104,13 @@ message:
 
 # Prohibited Actions:
 # - Specify the actions that players are not allowed to perform while the server is in update mode.
-# - Valid actions include "move" (movement), "interact" (interacting with blocks), "place_block" (placing blocks),
-#   "break_block" (breaking blocks), "damage" (taking damage), and "damage_by_entity" (damage caused by entities).
+# - Valid actions include:
+#   - **"move"** (movement) 🌟
+#   - **"interact"** (interacting with blocks) 🛠️
+#   - **"place_block"** (placing blocks) 🚧
+#   - **"break_block"** (breaking blocks) 💥
+#   - **"damage"** (taking damage) ⚠️
+#   - **"damage_by_entity"** (damage caused by entities) 🏹
 prohibited_actions:
   - "move"
   - "interact"
