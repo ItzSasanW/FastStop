@@ -30,7 +30,7 @@ The plugin uses a `settings.yml` file for configuration. This file is automatica
 # ------------------------------
 # Welcome to the FastStop plugin configuration!
 # For more information or to request help, please visit the GitHub repository:
-# https://github.com/ItzSasan/FastStop
+# https://github.com/ItzSasanW/FastStop
 #
 # This configuration file allows you to customize the effects applied to players, the messages displayed,
 # and the actions that are prohibited when the server is in update mode.
